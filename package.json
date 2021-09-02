@@ -1,0 +1,30 @@
+{
+  "name": "mysocialmediaapp",
+  "version": "1.0.0",
+  "description": "bsocialmediapp Back-end",
+  "main": "server.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diegogodoy93/mySocialMediaApp.git"
+  },
+  "author": "DiegoG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Diegogodoy93/mySocialMediaApp/issues"
+  },
+  "homepage": "https://github.com/Diegogodoy93/mySocialMediaApp#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dayjs": "^1.10.6",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "firebase": "^9.0.1",
+    "multer": "^1.4.3",
+    "mysql": "^2.18.1"
+  }
+}
